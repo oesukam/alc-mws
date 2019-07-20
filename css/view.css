@@ -1,6 +1,6 @@
 #viewer {
   top: 65px;
-  left: 40%;
+  /* left: 40%; */
   height: 878px;
   width: 523px;
   background-image: url(../images/phone.png);
@@ -8,6 +8,7 @@
   transform-origin: 50% 0;
   transform: scale(0.75);
   position: relative;
+  margin: auto;
 }
 
 #viewer .screen {
@@ -21,4 +22,17 @@
   padding: 1em;
   display: flex;
   flex-direction: column;
+}
+.error-display{
+  background: #ff005e;
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  top: 0;
+  right: 0;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  font-family: 'open sans',sans-serif;
 }
